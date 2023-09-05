@@ -31,7 +31,7 @@ def read_dump():
         dump_list = pickle.load(file)
     return dump_list
 
-#CSV差分比較
+#差分比較
 def list_diff(result, last_result):
     return_list = []
     for tmp in result:
